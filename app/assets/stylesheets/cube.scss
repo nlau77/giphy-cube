@@ -19,21 +19,22 @@
 	height: 200px;
   border: 1px solid black;
   text-align: center;
+  background: lightgreen;
 }
 
 .back {
 	transform: translateZ(-100px) rotateY(180deg);
-  background: lightblue;
+  // background: lightblue;
 }
 .right {
 	transform: rotateY(-270deg) translateX(100px);
 	transform-origin: top right;
-  background: red;
+  // background: red;
 }
 .left {
 	transform: rotateY(270deg) translateX(-100px);
 	transform-origin: center left;
-  background: purple;
+  // background: purple;
 }
 .top {
 	transform: rotateX(-90deg) translateY(-100px);
@@ -45,7 +46,7 @@
 }
 .front {
 	transform: translateZ(100px);
-  background-color: green;
+  // background-color: green;
 }
 
 @keyframes spin {

@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   root("static_pages#index")
 
-  resources :rails_cube
+  resources :rails_cube, only: [:index]
 end
