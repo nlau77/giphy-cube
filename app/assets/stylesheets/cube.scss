@@ -49,18 +49,14 @@
 }
 
 @keyframes spin {
+	// from { transform: rotateX(0); }
+	// to { transform: rotateX(360deg); }
 	from { transform: rotateY(0); }
 	to { transform: rotateY(360deg); }
 }
 
 .cube {
 	animation: spin 15s infinite linear;
-}
-
-
-@keyframes spin-vertical {
-	from { transform: rotateX(0); }
-	to { transform: rotateX(-360deg); }
 }
 
 
